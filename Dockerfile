@@ -10,4 +10,4 @@ RUN npm install pm2 -g
 RUN npm install truffle -g
 RUN npm install ganache-cli -g
 
-ENTRYPOINT ["node"]
+CMD /bin/bash
